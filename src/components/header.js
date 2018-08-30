@@ -34,7 +34,7 @@ export default class Header extends React.Component {
         } else {
             return (
                 <header>
-                    <TopNav showInfoModal={() => this.showInfoModal()} />
+                    <TopNav newGame={() => this.props.newGame()} showInfoModal={() => this.showInfoModal()} />
                     {/* <InfoModal /> */}
                     <h1>HOT or COLD</h1>
                 </header>
