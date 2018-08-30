@@ -6,8 +6,8 @@ export default function TopNav(props) {
     return (
         <nav>
             <ul className="clearfix">
-                <li>
-                    <a className="what" href="#">
+                <li onClick={() => props.showInfoModal()}>
+                    <a className="what" href="#" >
                         What?
                     </a>
                 </li>
